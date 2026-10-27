@@ -20,7 +20,7 @@ const char* DEFAULT_GATE_PIN   = "1234";
 #define RESET_BTN_PIN     0    // Physical Reset Button (GPIO 0 to GND - also onboard BOOT btn)
 #define STATUS_LED_PIN    2    // Onboard Blue LED for visual 5-sec reset feedback
 
-#define RELAY_ACTIVE_LOW  true
+#define RELAY_ACTIVE_LOW  false
 
 // When sponge blocks sensor -> Sensor pulls line to GND (LOW) -> Door is CLOSED
 #define SENSOR_CLOSED_VAL LOW  // Flip to HIGH if Open/Closed reads inverted
